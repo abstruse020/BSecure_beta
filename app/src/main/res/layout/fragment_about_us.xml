@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2fcff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/text_background"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="In today's world, a person has many
+confidential data to store which include  from social media accounts like gmail, facebook, instagram to bank details and also many official documents.It's generally hard to remember the details and passwords of each and every account .Sometimes,we  even forget the password of a particular account.To overcome this problem, user can make a file where he/she  can write all their passwords and other important data, and through our application user can convert it into an encrypted image file which will have all your data right there but no one could read it. So now you dont need to remember any password anymore.Our application is easy to use,secure,interactive and   no one can see or know about your data without decrypting the file through our application but if you delete the encrypted file it may result in loss of important data .
+
+
+Finally, we would like to conclude that using our application will not only let you save your important passwords but also any other text or image file that could be useful and is confidential.
+\n
+"
+            android:textColor="@android:color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/text_background"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="Made by-\n
+Harsh Pandey CSE-16223, 3rd year
+\nAbhishek Singh Rathore CSE-16204, 3rd year
+\nAditya Kumar CSE-16207, 3rd year"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/contact_us_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_inside"
+            android:paddingHorizontal="30dp"
+            android:text="Contact Us"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contact_Harsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contact_Abhishek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contact_Aditya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
